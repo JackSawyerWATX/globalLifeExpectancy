@@ -6,7 +6,7 @@ figure = px.choropleth(
   color = 'lifeExp',
   hover_name = 'country',
   color_continuous_scale = px.colors.sequential.Plasma,
-  title = 'Global Life Expectancy'
+  title = 'Global Life Expectancy- 2025'
 )
 
 figure.show()
